@@ -1,0 +1,59 @@
+Trello board:
+https://trello.com/b/eMRXfXAc/capstone-project
+
+Bitbucket:
+https://bitbucket.org/Nick07/capstoneproject/src/main/
+
+
+6/14/2021
+Salesperson options
+	Search vehicles
+	search customer
+	Add customer
+	update customer
+	remove customer
+	
+
+
+inventory management options
+	Show all vehicles currently
+	Search vehicles
+	Add vehicles
+	Remove vehicles
+
+
+mysql testuser name and password
+testuser
+Jb=<4,Xfk;twS*Zh
+
+password for inventory management is 'inventory'
+
+password for salesperson is 'sales'
+
+6/15/2021
+Added another option for a salesperson to update customer
+information.
+
+Finished the options menus for both the salesperson and inventory manager
+
+Added another table to the database to track salespersons and made the 
+idsales a foreign key in the customer table
+
+6/16/2021
+Added a column to the vehicles table for quantity of each vehicle 
+
+finished invShowAll function
+
+6/17/2021
+Added a phone number column to the customer table
+
+finished salesSearchVehicles and salesSearchCust functions
+
+6/18/2021
+Changed the phone number column in the database to BIGINT so all 10 digit
+phone numbers are allowed.
+
+finished salesAddCust() function
+
+6/21/2021
+finished salesRemoveCust() function
